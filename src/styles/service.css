@@ -1,0 +1,11 @@
+.service
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.icon1
+{
+    color: aqua;
+    font-size: 2rem;
+}

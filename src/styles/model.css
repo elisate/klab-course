@@ -1,0 +1,61 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.model {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 300px;
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input:focus {
+    border-color: #093A3E;
+    box-shadow: 0px 0px 5px rgba(9, 58, 62, 0.5);
+}
+
+.button {
+  
+    color: white;
+  
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+   
+    transform: translateY(-3px);
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}

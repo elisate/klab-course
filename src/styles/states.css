@@ -1,0 +1,13 @@
+.button
+{
+    background-color: aqua;
+    height: 2rem;
+    width: 6rem;
+    color: black;
+}
+.code
+{
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}

@@ -19,6 +19,7 @@ padding-top: 4rem;
 .card-container:hover
 {
     cursor: pointer;
+    transform: translateY(-10px);
 }
 .card-image
 {

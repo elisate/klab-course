@@ -1,14 +1,14 @@
 import React from "react";
 import '../styles/model.css';
 import { IoMdClose } from "react-icons/io";
-function ModelForm() {
+function ModelForm({ handleModal}) {
   return (
     <div className="overlay">
       <form className="model">
         <div className="header">
           <div>Register</div>
           <div>
-            <IoMdClose />
+            <IoMdClose onClick={handleModal} />
           </div>
         </div>
         <input type="text" placeholder="names" className="input" />

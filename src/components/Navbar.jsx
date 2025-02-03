@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 import ModelForm from "./ModelForm";
 function Navbar() {
   const [modal, setModal] = useState(0);
-  const handlaModal = () =>
+  const handleModal = () =>
   {
     setModal(!modal);
   }
   return (
     <section className="navigation">
-      {modal && <ModelForm handlaModal={handlaModal}/> }
+      {modal && <ModelForm handleModal={handleModal}/> }
       <div className="container">
         <div>Logo</div>
         <div className="header">
@@ -28,7 +28,7 @@ function Navbar() {
           </Link>
         </div>
         <div>
-          <button className="button" onClick={handlaModal}>Login</button>
+          <button className="button" onClick={handleModal}>Login</button>
         </div>
       </div>
     </section>

@@ -9,6 +9,7 @@ import About from './components/About'
 import Services from './components/Services'
 import Login from './components/Login'
 import States from './components/States';
+import SingleCard from './components/SingleCard'
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
           <Route path='/' index element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/services' element={<Services />} />
-          <Route path='/hooks' element={<States/> } />
+          <Route path='/hooks' element={<States />} />
+          <Route path='/card/:id' element={<SingleCard/>}/>
         </Route>
         <Route path='/login' element={<Login/>}/>
       </Routes>
